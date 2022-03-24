@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_chat"
+    tools:context=".RecyclerViewList">
+
+    <EditText
+        android:id="@+id/sh"
+        android:layout_width="393dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:hint="Search Here"
+        android:paddingStart="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"></EditText>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/rounded"
+        android:spinnerMode="dropdown"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/rounded"
+        android:spinnerMode="dropdown"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="20dp"
+        android:layout_width="393dp"
+        android:layout_height="750dp"
+        android:layout_marginTop="110dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="88dp" />
+</RelativeLayout>
