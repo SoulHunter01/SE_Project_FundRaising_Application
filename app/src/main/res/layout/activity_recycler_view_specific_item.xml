@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_chat"
+    tools:context=".RecyclerViewSpecificItem">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="125dp"
+        android:src="@drawable/logo"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/generate_QR"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded"
+        android:text="QR Code Generator"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#1F1C39"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/goal_status_change"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/rounded"
+        android:text="Change Goal Status"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#1F1C39"
+        android:textSize="15dp"
+        android:textStyle="bold"
+
+
+        ></androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:id="@+id/title_of_goal"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="180dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description_of_goal"
+        android:layout_width="300dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="270dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/status_of_goal"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/rounded"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#1F1C39"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/category_of_goal"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/rounded"
+        android:textAlignment="center"
+        android:textColor="#1F1C39"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/targetamount_of_goal"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/rounded"
+        android:textAlignment="center"
+        android:textColor="#1F1C39"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"></TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/applypayment"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/rounded"
+        android:text="Support Cause"
+        android:textStyle="bold"
+        android:textColor="#1F1C39"></androidx.appcompat.widget.AppCompatButton>
+
+
+</RelativeLayout>
