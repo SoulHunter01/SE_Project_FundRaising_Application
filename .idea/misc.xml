@@ -17,10 +17,22 @@
         <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/drawable/rounded_start.xml" value="0.2265" />
         <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/drawable/row_background.xml" value="0.2265" />
         <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_create_goal.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_generate_qr_code.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_login_screen.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_main_screen.xml" value="0.25" />
         <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_main_screen_tabs.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_payment_activity.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_payment_screen2.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_qr_scan_code.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_recycler_view_contribution_list.xml" value="0.25" />
         <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_recycler_view_list.xml" value="0.25" />
         <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_recycler_view_specific_item.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/activity_sign_up_screen.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/fragment_blank.xml" value="0.25" />
         <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/row.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/Semester 8 Study Material/Software Engineering/SE Proj/app/src/main/res/layout/row1.xml" value="0.25" />
       </map>
     </option>
   </component>

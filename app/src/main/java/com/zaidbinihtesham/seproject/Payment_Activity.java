@@ -11,8 +11,8 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.code.fundraisingapplication.PaymentScreen;
-import com.code.fundraisingapplication.R;
+import com.zaidbinihtesham.seproject.PaymentScreen;
+import com.zaidbinihtesham.seproject.R;
 
 import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;

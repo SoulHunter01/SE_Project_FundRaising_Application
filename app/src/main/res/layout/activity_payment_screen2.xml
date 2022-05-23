@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_chat"
+    tools:context=".PaymentScreen">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="125dp"
+        android:src="@drawable/logo"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/paynowviajazzcash"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="580dp"
+        android:background="@color/black"
+        android:scaleType="fitXY"
+        android:src="@drawable/jazzcash"
+        android:text="Pay Now Via Jazzcash"
+        android:textColor="@color/white"
+
+        ></androidx.appcompat.widget.AppCompatImageButton>
+
+    <TextView
+        android:id="@+id/title_of_goal"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/rounded"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#1F1C39"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/targetamount_of_goal"
+        android:layout_width="207dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rounded"
+        android:textAlignment="center"
+        android:textColor="#1F1C39"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/YourContribution"
+        android:layout_width="307dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/rounded_bars_show"
+        android:hint="Your Contribution..."
+        android:paddingStart="20dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#1F1C39"
+        android:textColorHint="#1F1C39"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/paynow"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/rounded_bars"
+        android:text="Pay Now"
+        android:textColor="#1F1C39"
+
+        ></androidx.appcompat.widget.AppCompatButton>
+
+
+</RelativeLayout>
