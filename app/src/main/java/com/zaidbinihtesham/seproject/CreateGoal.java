@@ -202,8 +202,8 @@ public class CreateGoal extends AppCompatActivity implements AdapterView.OnItemS
                 NotificationManagerCompat managerCompat = NotificationManagerCompat.from(CreateGoal.this);
                 managerCompat.notify(1, builder.build());
 
-//                Intent intent=new Intent(CreateGoal.this,RecyclerViewList.class);
-//                startActivity(intent);
+                Intent intent=new Intent(CreateGoal.this,RecyclerViewList.class);
+                startActivity(intent);
             }
 
         });
