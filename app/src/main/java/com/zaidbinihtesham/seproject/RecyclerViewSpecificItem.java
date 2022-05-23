@@ -109,8 +109,8 @@ public class RecyclerViewSpecificItem extends AppCompatActivity {
         generate_QR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // Intent intent = new Intent(RecyclerViewSpecificItem.this, generate_QR_Code.class);
-               // startActivity(intent);
+                Intent intent = new Intent(RecyclerViewSpecificItem.this, generate_QR_Code.class);
+                startActivity(intent);
             }
         });
 
@@ -156,10 +156,10 @@ public class RecyclerViewSpecificItem extends AppCompatActivity {
             public void onClick(View v) {
 
                 if (status_of_goal.getText().toString().startsWith("A")) {
-                   // Intent intent1 = new Intent(RecyclerViewSpecificItem.this, PaymentScreen.class);
-                   // intent1.putExtra("Title", title_of_goal.getText().toString());
-                   // intent1.putExtra("Target", targetamount_of_goal.getText().toString());
-                   // startActivityForResult(intent1,1);
+                    Intent intent1 = new Intent(RecyclerViewSpecificItem.this, PaymentScreen.class);
+                    intent1.putExtra("Title", title_of_goal.getText().toString());
+                    intent1.putExtra("Target", targetamount_of_goal.getText().toString());
+                    startActivityForResult(intent1,1);
                 } else {
                     Toast.makeText(RecyclerViewSpecificItem.this, "Goal Not Active", Toast.LENGTH_LONG).show();
                 }
@@ -215,5 +215,3 @@ public class RecyclerViewSpecificItem extends AppCompatActivity {
 
 
 }
-
-

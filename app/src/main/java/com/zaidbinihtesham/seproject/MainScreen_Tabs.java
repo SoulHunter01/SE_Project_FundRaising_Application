@@ -43,16 +43,16 @@ public class MainScreen_Tabs extends AppCompatActivity {
         ChangeActiveStatus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent=new Intent(MainScreen_Tabs.this,RecyclerViewList.class);
-//                startActivity(intent);
+                Intent intent=new Intent(MainScreen_Tabs.this,RecyclerViewList.class);
+                startActivity(intent);
             }
         });
 
         btn_scan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent=new Intent(MainScreen_Tabs.this,Qr_Scan_Code.class);
-//                startActivity(intent);
+                Intent intent=new Intent(MainScreen_Tabs.this,Qr_Scan_Code.class);
+                startActivity(intent);
             }
         });
 
@@ -60,16 +60,16 @@ public class MainScreen_Tabs extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseAuth.getInstance().signOut();
-//                Intent intent=new Intent(MainScreen_Tabs.this,LoginScreen.class);
-//                startActivity(intent);
+                Intent intent=new Intent(MainScreen_Tabs.this,LoginScreen.class);
+                startActivity(intent);
             }
         });
 
         seecontributions.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent intent=new Intent(MainScreen_Tabs.this,RecyclerViewContributionList.class);
-//                startActivity(intent);
+                Intent intent=new Intent(MainScreen_Tabs.this,RecyclerViewContributionList.class);
+                startActivity(intent);
             }
         });
 
